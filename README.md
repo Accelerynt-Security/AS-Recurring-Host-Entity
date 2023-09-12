@@ -28,6 +28,8 @@ Navigate to the Microsoft Sentinel page and take note of the Resource/Workspace 
 
 https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/microsoft.securityinsightsarg%2Fsentinel
 
+![RecurringHostEntity_Sentinel_Workspace_1](Images/RecurringHostEntity_Sentinel_Workspace_1.png)
+
 #
 ### Deployment                                                                                                         
                                                                                                         
