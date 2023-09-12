@@ -40,11 +40,9 @@
             "apiVersion": "2016-06-01",
             "name": "[variables('azuremonitorlogs')]",
             "location": "[resourceGroup().location]",
-            "kind": "V1",
             "properties": {
                 "displayName": "[parameters('PlaybookName')]",
                 "customParameterValues": {},
-                "parameterValueType": "Alternative",
                 "api": {
                     "id": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Web/locations/', resourceGroup().location, '/managedApis/azuremonitorlogs')]"
                 }
