@@ -67,6 +67,18 @@ Click the one corresponding to the Logic App.
 
 ![RecurringHostEntity_Deploy_3](Images/RecurringHostEntity_Deploy_3.png)
 
+Click on the “**Edit**” button. This will bring you into the Logic Apps Designer.
+
+![RecurringHostEntity_Deploy_4](Images/RecurringHostEntity_Deploy_4.png)
+
+Before the playbook can be run successfully, the "**azuremonitorlogs**" connection used in the first for each loop needs to be authorized, or an existing authorized connection may be alternatively selected. To validate the "**azuremonitorlogs**" connection, expand the first step in the for each loop labeled "**Connections**" and click the exclamation point icon next to the name matching the playbook.
+
+![AS_Group_Watchlist_Deploy_5](Images/AS_Group_Watchlist_Deploy_5.png)
+
+Select "**Logic Apps Managed Identity**" for the "**Authentication Type**", then click "**Create**".  
+
+![AS_Group_Watchlist_Deploy_6](Images/AS_Group_Watchlist_Deploy_6.png)
+
 #
 ### Microsoft Sentinel Contributor Role
 
